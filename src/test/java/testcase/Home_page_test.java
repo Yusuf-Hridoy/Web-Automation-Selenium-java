@@ -19,12 +19,7 @@ public class Home_page_test extends settings  {
 	
 	
 	
-	@Test
 	
-	public void TestHomePage() {
-		getDriver().get("https://www.printworksbd.com/");
-		
-	}
 	
 	
 	@Test

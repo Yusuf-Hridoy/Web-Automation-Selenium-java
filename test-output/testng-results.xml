@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-11T00:28:17 BDT" name="Default suite" finished-at="2023-03-11T00:28:50 BDT" duration-ms="32979">
+  <suite started-at="2023-03-12T21:30:34 BDT" name="Suite" finished-at="2023-03-12T21:31:33 BDT" duration-ms="58929">
     <groups>
     </groups>
-    <test started-at="2023-03-11T00:28:17 BDT" name="Default test" finished-at="2023-03-11T00:28:50 BDT" duration-ms="32979">
-      <class name="testcase.Home_page_test">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcase.Home_page_test@36cda2c2]" started-at="2023-03-11T00:28:17 BDT" name="setBrowser" finished-at="2023-03-11T00:28:19 BDT" duration-ms="2243" status="PASS">
+    <test started-at="2023-03-12T21:30:34 BDT" name="Test" finished-at="2023-03-12T21:31:33 BDT" duration-ms="58929">
+      <class name="testcase.click_test_on_button">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcase.click_test_on_button@130e116b]" started-at="2023-03-12T21:30:34 BDT" name="setBrowser" finished-at="2023-03-12T21:30:36 BDT" duration-ms="1411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="hoverr()[pri:0, instance:testcase.Home_page_test@36cda2c2]" started-at="2023-03-11T00:28:19 BDT" name="hoverr" finished-at="2023-03-11T00:28:50 BDT" duration-ms="30493" status="PASS">
+        <test-method signature="click_on_button()[pri:0, instance:testcase.click_test_on_button@130e116b]" started-at="2023-03-12T21:30:36 BDT" name="click_on_button" finished-at="2023-03-12T21:31:01 BDT" duration-ms="25089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_button -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcase.click_test_on_button@130e116b]" started-at="2023-03-12T21:31:01 BDT" name="quitBrowser" finished-at="2023-03-12T21:31:01 BDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcase.click_test_on_button -->
+      <class name="testcase.Home_page_test">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcase.Home_page_test@61fe30]" started-at="2023-03-12T21:31:01 BDT" name="setBrowser" finished-at="2023-03-12T21:31:02 BDT" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="hoverr()[pri:0, instance:testcase.Home_page_test@61fe30]" started-at="2023-03-12T21:31:02 BDT" name="hoverr" finished-at="2023-03-12T21:31:33 BDT" duration-ms="30835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverr -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcase.Home_page_test@36cda2c2]" started-at="2023-03-11T00:28:50 BDT" name="quitBrowser" finished-at="2023-03-11T00:28:50 BDT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcase.Home_page_test@61fe30]" started-at="2023-03-12T21:31:33 BDT" name="quitBrowser" finished-at="2023-03-12T21:31:33 BDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- testcase.Home_page_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

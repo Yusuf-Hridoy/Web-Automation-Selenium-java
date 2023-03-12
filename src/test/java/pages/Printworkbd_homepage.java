@@ -11,6 +11,7 @@ public class Printworkbd_homepage extends basepage  {
 	public  By Story_books =By.xpath ("//li[@id='nav-menu-item-720']//a[normalize-space()='Story Books']");
 	public By Story_books_fiction = By.xpath("//li[@id='nav-menu-item-2584']//a[normalize-space()='Fiction']");
 	public By Next_page = By.xpath("//div[@class='shop-loop-after clearfix']//a[@class='next page-numbers']");
+	public By login_page = By.xpath("//ul[@id='menu-top-navigation']//a[normalize-space()='Log In']");
 	
 	
 	

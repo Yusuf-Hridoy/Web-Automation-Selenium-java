@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.Home_page_test">
+      <class name="testcase.click_test_on_button">
         <methods>
-          <include name="hoverr"/>
           <include name="setBrowser"/>
           <include name="quitBrowser"/>
+          <include name="click_on_button"/>
         </methods>
-      </class> <!-- testcase.Home_page_test -->
+      </class> <!-- testcase.click_test_on_button -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
