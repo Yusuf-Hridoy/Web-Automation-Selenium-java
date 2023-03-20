@@ -39,4 +39,4 @@ Technologies used in the project:
 *   Testng
 *   Maven
 
-<h1> There is some problem with the site which i take for this project, mauybe domain problem. so i am trying to replace this woth another site asap </h1>
+<h1> There is some problem with the site which i take for this project, maybe domain problem. so i am trying to replace this with another site asap </h1>
